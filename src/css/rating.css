@@ -1,0 +1,11 @@
+.card {
+  color: hsl(300, 43%, 22%);
+  display: grid;
+  font-weight: 600;
+  height: 80%;
+  grid-template-columns: 40% 60%;
+  border-radius: 10px;
+  align-items: center;
+  width: 80%;
+  background-color: hsl(300, 24%, 96%);
+}
