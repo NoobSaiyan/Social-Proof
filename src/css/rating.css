@@ -9,3 +9,7 @@
   width: 80%;
   background-color: hsl(300, 24%, 96%);
 }
+.stars {
+  justify-self: center;
+  align-self: center;
+}
