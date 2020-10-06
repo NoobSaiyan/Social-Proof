@@ -13,3 +13,51 @@
   justify-self: center;
   align-self: center;
 }
+
+.card:nth-child(1) {
+  align-self: start;
+  justify-self: start;
+}
+.card:nth-child(2) {
+  align-self: center;
+  justify-self: center;
+}
+.card:nth-child(3) {
+  align-self: end;
+  justify-self: end;
+}
+@media only screen and (max-width: 748px) {
+  .card {
+    justify-self: center;
+    align-self: center;
+    width: 90%;
+    height: 60px;
+    display: grid;
+    align-items: center;
+    grid-template-rows: 1fr 1fr;
+  }
+  .stars {
+    align-self: end;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  .review {
+    text-align: center;
+    width: 100%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 2;
+  }
+  .card:nth-child(1) {
+    align-self: center;
+    justify-self: center;
+  }
+  .card:nth-child(2) {
+    align-self: center;
+    justify-self: center;
+  }
+  .card:nth-child(3) {
+    align-self: center;
+    justify-self: center;
+  }
+}

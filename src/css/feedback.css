@@ -9,6 +9,37 @@
   grid-template-columns: 30% 70%;
   grid-template-rows: 30% 70%;
 }
+.feedCard:nth-child(1) {
+  align-self: start;
+  justify-self: start;
+}
+.feedCard:nth-child(2) {
+  align-self: center;
+  justify-self: center;
+}
+.feedCard:nth-child(3) {
+  align-self: end;
+  justify-self: end;
+}
+@media only screen and (max-width: 748px) {
+  .feedCard {
+    height: 240px;
+    width: 100%;
+    margin-bottom: 5%;
+  }
+  .feedCard:nth-child(1) {
+    align-self: center;
+    justify-self: center;
+  }
+  .feedCard:nth-child(2) {
+    align-self: center;
+    justify-self: center;
+  }
+  .feedCard:nth-child(3) {
+    align-self: center;
+    justify-self: center;
+  }
+}
 .pic {
   padding-right: 20px;
   justify-self: end;

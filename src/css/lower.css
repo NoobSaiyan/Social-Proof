@@ -4,3 +4,10 @@
   display: grid;
   grid-template-columns: auto auto auto;
 }
+@media only screen and (max-width: 748px) {
+  .lower {
+    display: inline;
+    grid-row: 4;
+    grid-column: 2;
+  }
+}

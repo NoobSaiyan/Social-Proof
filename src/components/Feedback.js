@@ -2,12 +2,9 @@ import React from 'react'
 import '../css/feedback.css'
 import ReactRoundedImage from 'react-rounded-image'
 
-const Feedback = ({ justify, align, avtar, name, review }) => {
+const Feedback = ({ avtar, name, review }) => {
   return (
-    <div
-      className='feedCard'
-      style={{ justifySelf: justify, alignSelf: align }}
-    >
+    <div className='feedCard'>
       <div className='pic'>
         <ReactRoundedImage
           image={`/images/${avtar}`}
